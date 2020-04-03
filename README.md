@@ -11,7 +11,7 @@ npm start
 
 ### Running
 
-Client url: http:/localhost/3000
+Client url: http:/localhost/3000  
 Server url: http:/localhost/8080
 
 ### db connection string
