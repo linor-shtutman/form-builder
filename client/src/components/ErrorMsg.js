@@ -1,10 +1,10 @@
 import React from 'react'
 import { Alert } from 'react-bootstrap'
 
-const ErrorMsg = ({ title, msg, onClose }) => {
+const ErrorMsg = ({ msg, onClose }) => {
   return (
     <Alert variant="danger" onClose={() => onClose()} dismissible>
-      <Alert.Heading>{title}</Alert.Heading>
+      <Alert.Heading>Hi There!</Alert.Heading>
       <p>{msg}</p>
     </Alert>
   )
