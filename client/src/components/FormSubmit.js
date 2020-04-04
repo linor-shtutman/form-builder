@@ -35,8 +35,9 @@ class FormSubmit extends React.Component {
         const result = await submitForm({ formId: this.props.formId, values })
         if (result) {
             customHistory.push('/')
+        } else {
+            this.props.showModal()
         }
-        this.props.showModal()
     }
 
     closeAlert = () => this.setState({ showAlert: false })

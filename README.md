@@ -14,6 +14,6 @@ npm start
 Client url: http:/localhost/3000  
 Server url: http:/localhost/8080
 
-### db connection string
+### DB connection string
 
 mongodbmongodb+srv://admin:admin123@cluster0-emqe0.mongodb.net/formBuilder?retryWrites=true&w=majority

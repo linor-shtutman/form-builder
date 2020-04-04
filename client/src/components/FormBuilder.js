@@ -50,8 +50,9 @@ class FormsBuilder extends React.Component {
                 ],
             }))
             this.clearField()
+        } else {
+            this.setState({ showAlert: true })
         }
-        this.setState({ showAlert: true })
     }
 
     closeAlert = () => this.setState({ showAlert: false })
